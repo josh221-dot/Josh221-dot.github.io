@@ -472,6 +472,9 @@ span {
     .home-img img {
         width: 250px;border-radius: 50%;
     }
+    .logo-img img {
+        width: 90px; border-radius: 50%
+    }
     .about-img img {
         width: 90vw;
     }
@@ -490,4 +493,12 @@ span {
         text-align: center;
         margin-top: 2rem;
     }
+    .fade-in {
+animation: fadeIn 2s;
+    }
+
+@keyframes fadeIn {
+0%{ opacity: 0; }
+  100%{ opacity: 1; }
+}
 }
